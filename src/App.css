@@ -1,0 +1,58 @@
+body{
+  color: rgb(71, 71, 72);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.bold-p-xl-c{
+  font-size: 26px;
+  font-weight: 500;
+  color: #a77a5d;
+  margin-bottom: 5px;
+}
+.bold-p-xl{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.chairman-message-div{
+  width: 90%;
+  margin: auto;
+  word-break:keep-all;
+}
+p{
+  font-size: 18px;
+}
+.text-name-bold-c{
+  color: #a77a5d;
+  font-weight: 800;
+  font-size: 16px;
+}
+.g-img{
+  width: 380px;
+}
+.big-heading-financial{
+  color: #a77a5d;
+  line-height: 40px;
+  font-size: 40px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.bold-b-h{
+  color: rgb(51, 50, 50);
+  font-weight: 800;
+  font-size: 24px;
+}
+.light-blue-text{
+  color: rgb(100, 168, 168);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.small-img-cont img{
+ width: 100%;
+ margin-top: 20px;
+}
