@@ -12,22 +12,26 @@ import DistinguishClients from './Pages/DistinguishClients'
 import Excellence from './Pages/Excellence'
 import EngineeringFutureStakeholder from './Pages/EngineeringFutureStakeholder'
 import AcceleratingGrowth from './Pages/AcceleratingGrowth'
+import Navbar from './Components/Navbar/Navbar'
+import Home from './Pages/Home'
+import Footer from './Components/Footer/Footer'
 
 function App() {
 
   return (
     <div>
-    <ChairmanMessage/> 
-    <FinancialPerformance/>
-    <Quality/>
-    <Awards/>
-    <Engineering/>
-    <OperatingLandScape/>
-    <Operations/>
-    <DistinguishClients/>
-    <Excellence/>
-    <EngineeringFutureStakeholder/>
-    <AcceleratingGrowth/>
+      <Navbar/>
+      <Home/>
+    {/* <ChairmanMessage/> */}
+    {/* <FinancialPerformance/> */}
+    {/* <Quality/>
+    <Awards/> */}
+    {/* <Engineering/> */}
+    {/* <OperatingLandScape/> */}
+    {/* <OperatingLandScape/> */}
+    {/* <Operations/> */}
+    {/* <Test/> */}
+    <Footer/>
     </div>
   )
 }

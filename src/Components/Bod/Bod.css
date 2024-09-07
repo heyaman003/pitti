@@ -1,0 +1,143 @@
+.Bod-container {
+    position: relative;
+    background-color: rgba(133, 133, 133, 0.1); /* Container background */
+    padding: 5% 0;
+    overflow: hidden;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+  }
+  
+  .Bod-container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 7px; /* Top border height */
+    background: linear-gradient(to right, #d83d27, transparent);
+  }
+  
+  .Bod-container:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 7px; /* Bottom border height */
+    background: linear-gradient(to left, #d83d27, transparent);
+  }
+  
+.carousel-container {
+    width: 80%;
+    /* margin: 0 auto; */
+    margin-left: 2%;
+    padding: 40px 0;
+  }
+.sec-heading{
+    font-size: 2.5em;
+    /* margin: 5% 0; */
+    font-weight: 500;
+  }
+  
+  .slick-list {
+    display: flex;
+  }
+  
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  .card {
+    background-color: #fdfdfd; /* Soft white background */
+    border: 1px solid #e0e0e0; /* Soft grey border */
+    border-radius: 12px; /* Slightly rounded corners */
+    margin-left: 2%;
+    padding: 25px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    font-family: 'Poppins', sans-serif; /* Classy and modern font */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+  }
+  
+  .card h2 {
+    color: #7bb3b2; /* Dark grey for a refined look */
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .card h4 {
+    color: #d83d27; /* Medium grey for subtitles */
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  
+  .card-message {
+    font-size: 16px;
+    color: #666666; /* Softer grey for the body text */
+    margin-bottom: 10px;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    overflow: hidden;
+    position: relative;
+    line-height: 1.6;
+  }
+  
+  .card-message.collapsed {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    height: 4.5em;
+    opacity: 0.9;
+  }
+  
+  .card-message.expanded {
+    max-height: 100%;
+    opacity: 1;
+  }
+  
+  .expand-btn {
+    background-color: transparent;
+    border: none;
+    color: #d4a373; /* Elegant accent color (gold or navy) */
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .expand-btn:hover {
+    color: #a67f4e; /* Darker shade of accent color for hover */
+  }
+  
+  .slick-dots li button:before {
+    color: #d4a373; /* Match dots to the classy accent color */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #a67f4e; /* Active dot with darker accent */
+  }
+  .gear-elem{
+    width: 30%;
+    position: absolute;
+    right: -15%;
+    bottom: -12%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .gear-elem{
+        bottom: -5%;
+    }
+}
