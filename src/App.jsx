@@ -8,11 +8,16 @@ import Engineering from './Pages/Engineering'
 import OperatingLandScape from './Pages/OperatingLandScape'
 import Operations from './Pages/Operations'
 import Test from './Pages/Test';
+import Navbar from './Components/Navbar/Navbar'
+import Home from './Pages/Home'
+import Footer from './Components/Footer/Footer'
 
 function App() {
 
   return (
     <div>
+      <Navbar/>
+      <Home/>
     {/* <ChairmanMessage/> */}
     {/* <FinancialPerformance/> */}
     {/* <Quality/>
@@ -21,7 +26,8 @@ function App() {
     {/* <OperatingLandScape/> */}
     {/* <OperatingLandScape/> */}
     {/* <Operations/> */}
-    <Test/>
+    {/* <Test/> */}
+    <Footer/>
     </div>
   )
 }

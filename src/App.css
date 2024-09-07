@@ -4,6 +4,17 @@ body{
   margin: 0;
   padding: 0;
 }
+.marginal{
+  width: 86%;
+  max-width: 1500px;
+  margin: auto;
+}
+.brown-heading{
+  font-size: 4em;
+  font-weight: 200;
+  color: #a77a5d;
+
+}
 .bold-p-xl-c{
   font-size: 26px;
   font-weight: 500;
