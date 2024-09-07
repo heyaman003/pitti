@@ -8,20 +8,26 @@ import Engineering from './Pages/Engineering'
 import OperatingLandScape from './Pages/OperatingLandScape'
 import Operations from './Pages/Operations'
 import Test from './Pages/Test';
+import DistinguishClients from './Pages/DistinguishClients'
+import Excellence from './Pages/Excellence'
+import EngineeringFutureStakeholder from './Pages/EngineeringFutureStakeholder'
+import AcceleratingGrowth from './Pages/AcceleratingGrowth'
 
 function App() {
 
   return (
     <div>
-    {/* <ChairmanMessage/> */}
-    {/* <FinancialPerformance/> */}
-    {/* <Quality/>
-    <Awards/> */}
-    {/* <Engineering/> */}
-    {/* <OperatingLandScape/> */}
-    {/* <OperatingLandScape/> */}
-    {/* <Operations/> */}
-    <Test/>
+    <ChairmanMessage/> 
+    <FinancialPerformance/>
+    <Quality/>
+    <Awards/>
+    <Engineering/>
+    <OperatingLandScape/>
+    <Operations/>
+    <DistinguishClients/>
+    <Excellence/>
+    <EngineeringFutureStakeholder/>
+    <AcceleratingGrowth/>
     </div>
   )
 }
