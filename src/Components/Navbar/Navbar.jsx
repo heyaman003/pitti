@@ -69,13 +69,13 @@ const Navbar = () => {
                         <div className="col">
                             <h4>Notice</h4>
                             <ul>
-                                <li><Link to="./docs/PITTI AR 2023-24.pdf" target='_blank' onClick={closeMenu}>40th Annual General Meeting</Link></li>
+                                <li><Link to="./docs/Notice.pdf" target='_blank' onClick={closeMenu}>40th Annual General Meeting</Link></li>
                             </ul>
                         </div>
                         <div className="col">
                             <ul className="social">
                                 <li>
-                                    <Link to="#" className="download-button" onClick={closeMenu}>
+                                    <Link to="./docs/PITTI AR 2023-24.pdf" target='_blank' className="download-button" onClick={closeMenu}>
                                         <div className='svg'>
                                             <img src="./homepage/download-pdf.svg" alt="" />
                                         </div>
