@@ -53,23 +53,23 @@ const Navbar = () => {
                         <div className="col">
                             <h4>Statutory Reports</h4>
                             <ul>
-                                <li><Link to="#" onClick={closeMenu}>Management Discussion and Analysis</Link></li>
-                                <li><Link to="#" onClick={closeMenu}>Directors’ Report</Link></li>
-                                <li><Link to="#" onClick={closeMenu}>Business Responsibility & Sustainability Report</Link></li>
-                                <li><Link to="#" onClick={closeMenu}>Report on Corporate Governance</Link></li>
+                                <li><Link to="./docs/MDA.pdf" target='_blank' onClick={closeMenu}>Management Discussion and Analysis</Link></li>
+                                <li><Link to="./docs/Director's Report.pdf" target='_blank' onClick={closeMenu}>Directors’ Report</Link></li>
+                                <li><Link to="./docs/BRSR.pdf" target='_blank' onClick={closeMenu}>Business Responsibility & Sustainability Report</Link></li>
+                                <li><Link to="./docs/Corporate Governance.pdf" target='_blank' onClick={closeMenu}>Report on Corporate Governance</Link></li>
                             </ul>
                         </div>
                         <div className="col">
                             <h4>Financial Statements</h4>
                             <ul>
-                                <li><Link to="#" onClick={closeMenu}>Standalone Financial Statements</Link></li>
-                                <li><Link to="#" onClick={closeMenu}>Consolidated Financial Statements</Link></li>
+                                <li><Link to="./docs/Standalone balance sheet.pdf" target='_blank' onClick={closeMenu}>Standalone Financial Statements</Link></li>
+                                <li><Link to="./docs/Consolidated balance sheet.pdf" target='_blank' onClick={closeMenu}>Consolidated Financial Statements</Link></li>
                             </ul>
                         </div>
                         <div className="col">
                             <h4>Notice</h4>
                             <ul>
-                                <li><Link to="#" onClick={closeMenu}>40th Annual General Meeting</Link></li>
+                                <li><Link to="./docs/PITTI AR 2023-24.pdf" target='_blank' onClick={closeMenu}>40th Annual General Meeting</Link></li>
                             </ul>
                         </div>
                         <div className="col">
