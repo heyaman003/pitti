@@ -13,7 +13,7 @@ const Cover = () => {
     <div className='relative cover-container w-[100vw]'>
         <div className='absolute cover-label'>
         <b>Pitti Engineering Limited</b>
-        <p>Annual Report 2022-23</p>
+        <p>Annual Report 2023-24</p>
         </div>
     <video
       ref={videoRef}
